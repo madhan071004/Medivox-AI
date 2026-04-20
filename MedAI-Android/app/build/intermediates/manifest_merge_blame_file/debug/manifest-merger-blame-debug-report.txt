@@ -1,0 +1,189 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.medai.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:5:5-67
+12-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:6:5-71
+13-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:6:22-68
+14    <uses-permission
+14-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:7:5-8:38
+15        android:name="android.permission.READ_EXTERNAL_STORAGE"
+15-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:7:22-77
+16        android:maxSdkVersion="32" />
+16-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:8:9-35
+17    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+17-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:9:5-76
+17-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:9:22-73
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:10:5-65
+18-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:10:22-62
+19
+20    <permission
+20-->[androidx.core:core:1.12.0] C:\Users\susre\.gradle\caches\transforms-3\b45e2d6df1a51425a46eab66aaaa4fcb\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+21        android:name="com.medai.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.12.0] C:\Users\susre\.gradle\caches\transforms-3\b45e2d6df1a51425a46eab66aaaa4fcb\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.12.0] C:\Users\susre\.gradle\caches\transforms-3\b45e2d6df1a51425a46eab66aaaa4fcb\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.medai.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.12.0] C:\Users\susre\.gradle\caches\transforms-3\b45e2d6df1a51425a46eab66aaaa4fcb\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.12.0] C:\Users\susre\.gradle\caches\transforms-3\b45e2d6df1a51425a46eab66aaaa4fcb\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:12:5-46:19
+27        android:name="com.medai.app.MedAiApp"
+27-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:13:9-33
+28        android:allowBackup="true"
+28-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:14:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.12.0] C:\Users\susre\.gradle\caches\transforms-3\b45e2d6df1a51425a46eab66aaaa4fcb\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:icon="@mipmap/ic_launcher"
+32-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:15:9-43
+33        android:label="@string/app_name"
+33-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:16:9-41
+34        android:networkSecurityConfig="@xml/network_security_config"
+34-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:21:9-69
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:17:9-54
+36        android:supportsRtl="true"
+36-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:18:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.MedAI"
+38-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:19:9-43
+39        android:usesCleartextTraffic="true" >
+39-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:20:9-44
+40
+41        <!-- Splash -->
+42        <activity
+42-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:24:9-32:20
+43            android:name="com.medai.app.ui.splash.SplashActivity"
+43-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:25:13-53
+44            android:exported="true"
+44-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:26:13-36
+45            android:theme="@style/Theme.MedAI.Splash" >
+45-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:27:13-54
+46            <intent-filter>
+46-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:28:13-31:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:29:17-69
+47-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:29:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:30:17-77
+49-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:30:27-74
+50            </intent-filter>
+51        </activity>
+52
+53        <!-- Login -->
+54        <activity
+54-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:35:9-38:58
+55            android:name="com.medai.app.ui.login.LoginActivity"
+55-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:36:13-51
+56            android:exported="false"
+56-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:37:13-37
+57            android:windowSoftInputMode="adjustResize" />
+57-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:38:13-55
+58
+59        <!-- Chat (main) -->
+60        <activity
+60-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:41:9-44:58
+61            android:name="com.medai.app.ui.chat.ChatActivity"
+61-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:42:13-49
+62            android:exported="false"
+62-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:43:13-37
+63            android:windowSoftInputMode="adjustResize" />
+63-->D:\MedAI-Android\MedAI-Android\app\src\main\AndroidManifest.xml:44:13-55
+64
+65        <provider
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\susre\.gradle\caches\transforms-3\7ca791356d65489572b278664e972da4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+66            android:name="androidx.startup.InitializationProvider"
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\susre\.gradle\caches\transforms-3\7ca791356d65489572b278664e972da4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+67            android:authorities="com.medai.app.androidx-startup"
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\susre\.gradle\caches\transforms-3\7ca791356d65489572b278664e972da4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+68            android:exported="false" >
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\susre\.gradle\caches\transforms-3\7ca791356d65489572b278664e972da4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+69            <meta-data
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\susre\.gradle\caches\transforms-3\7ca791356d65489572b278664e972da4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\susre\.gradle\caches\transforms-3\7ca791356d65489572b278664e972da4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+71                android:value="androidx.startup" />
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\susre\.gradle\caches\transforms-3\7ca791356d65489572b278664e972da4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+72            <meta-data
+72-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\susre\.gradle\caches\transforms-3\efe9a59c456fbd4154075f10d0c383d7\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+73-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\susre\.gradle\caches\transforms-3\efe9a59c456fbd4154075f10d0c383d7\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+74                android:value="androidx.startup" />
+74-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\susre\.gradle\caches\transforms-3\efe9a59c456fbd4154075f10d0c383d7\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\susre\.gradle\caches\transforms-3\2ec17c64fbe0284c426628be6c0ce31f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\susre\.gradle\caches\transforms-3\2ec17c64fbe0284c426628be6c0ce31f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+77                android:value="androidx.startup" />
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\susre\.gradle\caches\transforms-3\2ec17c64fbe0284c426628be6c0ce31f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+78        </provider>
+79
+80        <uses-library
+80-->[androidx.window:window:1.0.0] C:\Users\susre\.gradle\caches\transforms-3\9b873b7d021fa4a2caffb10cbad8d619\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+81            android:name="androidx.window.extensions"
+81-->[androidx.window:window:1.0.0] C:\Users\susre\.gradle\caches\transforms-3\9b873b7d021fa4a2caffb10cbad8d619\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+82            android:required="false" />
+82-->[androidx.window:window:1.0.0] C:\Users\susre\.gradle\caches\transforms-3\9b873b7d021fa4a2caffb10cbad8d619\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+83        <uses-library
+83-->[androidx.window:window:1.0.0] C:\Users\susre\.gradle\caches\transforms-3\9b873b7d021fa4a2caffb10cbad8d619\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+84            android:name="androidx.window.sidecar"
+84-->[androidx.window:window:1.0.0] C:\Users\susre\.gradle\caches\transforms-3\9b873b7d021fa4a2caffb10cbad8d619\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+85            android:required="false" />
+85-->[androidx.window:window:1.0.0] C:\Users\susre\.gradle\caches\transforms-3\9b873b7d021fa4a2caffb10cbad8d619\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+86
+87        <receiver
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\susre\.gradle\caches\transforms-3\2ec17c64fbe0284c426628be6c0ce31f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+88            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\susre\.gradle\caches\transforms-3\2ec17c64fbe0284c426628be6c0ce31f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+89            android:directBootAware="false"
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\susre\.gradle\caches\transforms-3\2ec17c64fbe0284c426628be6c0ce31f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+90            android:enabled="true"
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\susre\.gradle\caches\transforms-3\2ec17c64fbe0284c426628be6c0ce31f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+91            android:exported="true"
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\susre\.gradle\caches\transforms-3\2ec17c64fbe0284c426628be6c0ce31f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+92            android:permission="android.permission.DUMP" >
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\susre\.gradle\caches\transforms-3\2ec17c64fbe0284c426628be6c0ce31f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\susre\.gradle\caches\transforms-3\2ec17c64fbe0284c426628be6c0ce31f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+94                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\susre\.gradle\caches\transforms-3\2ec17c64fbe0284c426628be6c0ce31f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\susre\.gradle\caches\transforms-3\2ec17c64fbe0284c426628be6c0ce31f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+95            </intent-filter>
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\susre\.gradle\caches\transforms-3\2ec17c64fbe0284c426628be6c0ce31f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+97                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\susre\.gradle\caches\transforms-3\2ec17c64fbe0284c426628be6c0ce31f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\susre\.gradle\caches\transforms-3\2ec17c64fbe0284c426628be6c0ce31f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+98            </intent-filter>
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\susre\.gradle\caches\transforms-3\2ec17c64fbe0284c426628be6c0ce31f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+100                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\susre\.gradle\caches\transforms-3\2ec17c64fbe0284c426628be6c0ce31f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\susre\.gradle\caches\transforms-3\2ec17c64fbe0284c426628be6c0ce31f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+101            </intent-filter>
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\susre\.gradle\caches\transforms-3\2ec17c64fbe0284c426628be6c0ce31f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+103                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\susre\.gradle\caches\transforms-3\2ec17c64fbe0284c426628be6c0ce31f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\susre\.gradle\caches\transforms-3\2ec17c64fbe0284c426628be6c0ce31f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+104            </intent-filter>
+105        </receiver>
+106    </application>
+107
+108</manifest>

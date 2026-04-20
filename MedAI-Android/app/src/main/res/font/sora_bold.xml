@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Download Sora-Bold.ttf from fonts.google.com and place as sora_bold.ttf in this folder -->
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font app:fontStyle="normal" app:fontWeight="700" app:font="@font/sora_bold"/>
+</font-family>

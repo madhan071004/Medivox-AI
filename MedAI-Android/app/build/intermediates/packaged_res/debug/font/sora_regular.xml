@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Download Sora-Regular.ttf from fonts.google.com and place as sora_regular.ttf in this folder -->
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font app:fontStyle="normal" app:fontWeight="400" app:font="@font/sora_regular"/>
+</font-family>

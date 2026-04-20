@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\susre\\.gradle\\daemon\\8.2\\com.medai.app-mergeDebugResources-56:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\susre\\.gradle\\daemon\\8.2\\com.medai.app-main-59:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\susre\\.gradle\\daemon\\8.2\\com.medai.app-mergeDebugResources-56:\\layout\\activity_chat.xml",
+        "source": "C:\\Users\\susre\\.gradle\\daemon\\8.2\\com.medai.app-main-59:\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\susre\\.gradle\\daemon\\8.2\\com.medai.app-mergeDebugResources-56:\\layout\\item_conversation.xml",
+        "source": "C:\\Users\\susre\\.gradle\\daemon\\8.2\\com.medai.app-main-59:\\layout\\item_conversation.xml"
+    },
+    {
+        "merged": "C:\\Users\\susre\\.gradle\\daemon\\8.2\\com.medai.app-mergeDebugResources-56:\\layout\\item_message_user.xml",
+        "source": "C:\\Users\\susre\\.gradle\\daemon\\8.2\\com.medai.app-main-59:\\layout\\item_message_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\susre\\.gradle\\daemon\\8.2\\com.medai.app-mergeDebugResources-56:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\susre\\.gradle\\daemon\\8.2\\com.medai.app-main-59:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "com.medai.app-mergeDebugResources-56:/layout/activity_chat.xml",
+        "source": "com.medai.app-main-59:/layout/activity_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\susre\\.gradle\\daemon\\8.2\\com.medai.app-mergeDebugResources-56:\\layout\\item_message_assistant.xml",
+        "source": "C:\\Users\\susre\\.gradle\\daemon\\8.2\\com.medai.app-main-59:\\layout\\item_message_assistant.xml"
+    }
+]

@@ -1,0 +1,3 @@
+#!/bin/sh
+# Gradle wrapper script — run ./gradlew assembleDebug to build
+exec gradle "$@"

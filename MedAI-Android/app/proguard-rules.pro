@@ -1,0 +1,2 @@
+-keep class com.medai.app.** { *; }
+-keepclassmembers class * { @com.google.gson.annotations.SerializedName <fields>; }
